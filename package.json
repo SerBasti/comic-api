@@ -1,0 +1,22 @@
+{
+  "name": "comic-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SerBasti/comic-api.git",
+  "author": "Sebastião Costa <36669564+SerBasti@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1"
+  }
+}
